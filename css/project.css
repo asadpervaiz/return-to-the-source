@@ -1,0 +1,21 @@
+body{
+  font-size: 28px;
+  line-height: 115%;
+  font-family: arno-pro-small-text, 'times new roman', times, georgia, serif;
+  font-variant-numeric: oldstyle-nums;
+  letter-spacing: 0.015em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  margin: 0;
+  font-size:42px;
+  line-height:46px;
+}
+
+p {
+  margin:0;
+}

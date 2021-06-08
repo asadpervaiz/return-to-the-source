@@ -1,0 +1,115 @@
+body {
+margin:0;
+background: transparent;
+color: #101010;
+}
+
+sup{
+  line-height:0;
+}
+
+ol {
+  font-variant-numeric: oldstyle-nums;
+  padding: 0px;
+}
+
+li{
+  width: 60%;
+    margin-bottom: 0.75em;
+    font-variant-numeric: oldstyle-nums;
+    padding-left: 12px;
+    letter-spacing: 0.015em;
+}
+
+ol li::marker{
+  font-variant-numeric: oldstyle-nums;
+  letter-spacing: -0.025em;
+}
+
+#footnotes{
+  width: 100%;
+  margin-top: 3px;
+  position: static;
+  font-family: courier;
+  font-style: normal;
+  font-size: 0.55em;
+  line-height: 1.3em;
+  /* height: 100px; */
+  margin-bottom: 2em;
+}
+
+
+a:link, a:visited {
+}
+
+#project-inner{
+  width: auto;
+  padding: 45px;
+  margin: 0;
+  letter-spacing: 0;
+  word-spacing: 0;
+  background: #fff;
+}
+
+#project-inner a{
+  text-decoration: underline;
+}
+
+#inner-titlebar{
+  width: 65%;
+  margin-top: 3px;
+  position: static;
+font-family:courier;
+  font-style: normal;
+  font-size: 0.55em;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
+  min-height: 108px;
+  margin-bottom: 2em;
+}
+
+.inner-title{
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.inner-subtitle{
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.inner-author{
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.download-btn{
+  margin-left: 0px;
+  float: left;
+  position: relative;
+  display: inline-block;
+  border: 1px solid;
+  padding: 9px 15px;
+  border-radius: 2px;
+  margin-top: 2em;
+  clear: both;
+}
+
+.download-btn:hover{
+background: black;
+color: white;
+border-color: black;
+cursor: pointer;
+padding: 9px 15px;
+  border-radius: 2px;
+}
+
+ol a {
+  color: black;
+}
